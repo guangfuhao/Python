@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 #!/usr/bin/env python   #指定通过python解释代码(必须放在首行，不可少)
 
+#https://www.cnblogs.com/yangruicvpr/p/9578947.html
+
 #from std_msgs.msg import Int32MultiArray    #导入python的标准字符处理库
 import cv2 
 import numpy as np
