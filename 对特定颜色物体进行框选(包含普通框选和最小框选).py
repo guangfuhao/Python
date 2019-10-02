@@ -2,6 +2,7 @@
 #!/usr/bin/env python   #指定通过python解释代码(必须放在首行，不可少)
 
 #https://www.jianshu.com/p/e98457cabf42
+#https://blog.csdn.net/liu_jiangwen/article/details/85934447
 
 #from std_msgs.msg import Int32MultiArray    #导入python的标准字符处理库
 import cv2 
