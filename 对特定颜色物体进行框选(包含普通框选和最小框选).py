@@ -115,3 +115,12 @@ while 1: #进入无线循环
 cap.release()
 cv2.destroyAllWindows() #后面两句是常规操作,每次使用摄像头都需要这样设置一波
 
+for i in xrange(1, len(pts)):  
+
+        if pts[i - 1] is None or pts[i] is None:  
+
+            continue
+
+        thickness = int(np.sqrt(mybuffer / float(i + 1)) * 2.5)
+
+        cv2.line(frame, pts[i - 1], pts[i], (0, 0, 255), thickness)
